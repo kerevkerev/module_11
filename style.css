@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #4000F4;
+    background: -webkit-linear-gradient(to bottom left, #4000F4 0%, #ECBAD5 100%);
+    background: -moz-linear-gradient(to bottom left, #4000F4 0%, #ECBAD5 100%);
+    background: linear-gradient(to bottom left, #4000F4 0%, #ECBAD5 100%);
+    overflow: hidden;
+}
+
+.game-card {
+    height: 100vh;
+    font-family: 'Open Sans', monospace;
+    opacity: 0;
+    transition: all linear .2s;
+}
+
+#btnStart {
+    transition: all linear .2s;
+    position: relative;
+    z-index: 10000;
+    top: 300px;
+}
